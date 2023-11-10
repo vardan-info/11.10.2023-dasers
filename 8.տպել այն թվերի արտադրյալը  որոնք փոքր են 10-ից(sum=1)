@@ -1,0 +1,26 @@
+8.տպել այն թվերի արտադրյալը  որոնք փոքր են 10-ից(sum=1)
+int[] array = new int[4];
+
+
+        array[0] = 5;
+        array[1] = 4;
+        array[2] = 9;
+        array[3] = 10;
+
+        int sum = 1;
+
+        for (int i = 0; i < array.length; i++) {
+            if ( array[i]<10){
+                sum*=array[i];
+
+            }
+
+        }
+
+
+////180
+
+        System.out.println(sum);
+        System.out.println(5*9*4);
+    }
+}
