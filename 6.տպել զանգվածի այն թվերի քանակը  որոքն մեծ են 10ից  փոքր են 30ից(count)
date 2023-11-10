@@ -1,0 +1,27 @@
+//6.տպել զանգվածի այն թվերի քանակը  որոքն մեծ են 10ից  փոքր են 30ից(count)
+
+int[] array3 = new int[4];
+
+
+
+        array3[0] = 10;
+        array3[1] = 15;
+        array3[2] = 20;
+        array3[3] = 30;
+
+        int count = 0;
+
+        for (int i = 1; i < array3.length; i++) {
+            if (array3[i] <30) {
+                count++;
+
+            }
+
+        }
+
+
+////-5 -1 -4
+
+        System.out.println(count);
+    }
+}
