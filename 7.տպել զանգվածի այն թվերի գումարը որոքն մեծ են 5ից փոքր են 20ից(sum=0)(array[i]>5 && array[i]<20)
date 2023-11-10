@@ -1,0 +1,25 @@
+int[] array = new int[4];
+
+
+        array[0] = 5;
+        array[1] = 10;
+        array[2] = 17;
+        array[3] = 20;
+
+        int sum = 0;
+
+        for (int i = 1; i < array.length; i++) {
+            if (array[i]>5 && array[i]<20){
+                sum+=array[i];
+
+            }
+
+        }
+
+
+////27
+
+        System.out.println(sum);
+    }
+}
+
